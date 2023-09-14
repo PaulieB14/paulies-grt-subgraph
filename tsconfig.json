@@ -1,7 +1,6 @@
 import { Transfer } from "../generated/Contract/Contract"
 import { TransferEvent } from "../generated/schema"
 export function handleTransfer(event: Transfer): void {}
-
 let transferEvent = new TransferEvent(event.transaction.hash.toHex())
 
 let amount = (event.params.value.toBigDecimal())
