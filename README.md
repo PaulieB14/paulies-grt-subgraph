@@ -1,9 +1,5 @@
-# paulies-grt-subgraph
+# Paulie's GRT Subgraph
 
-
-Certainly! Here's a README.md file template for your subgraph based on the course information you've provided:
-
-Paulie's GRT Subgraph
 This repository contains the subgraph developed during the course on becoming a subgraph developer in The Graph Network. If you're looking to understand the technical intricacies of The Graph and get hands-on experience with subgraphs, this repository and the corresponding course are the right starting points!
 
 About the Course
