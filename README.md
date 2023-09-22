@@ -11,27 +11,18 @@ Practical skills needed for developing and deploying subgraphs.
 Repository Structure
 schema.graphql: Defines the entities and their relationships for this subgraph.
 src/: Contains the mapping logic.
-...: (Add other important files/folders and their descriptions)
-Getting Started
-Clone the Repository:
 
-bash
-Copy code
-git clone https://github.com/PaulieB14/paulies-grt-subgraph.git
-Navigate to the Directory:
-
-bash
-Copy code
-cd paulies-grt-subgraph
 
 
 Queries
 To test the subgraph, you can use the following basic query:
 
 graphql
+"
 {
   transferEvents(first: 5) {
     id
     amount
   }
 }
+"
