@@ -23,16 +23,12 @@ Navigate to the Directory:
 bash
 Copy code
 cd paulies-grt-subgraph
-... (Include other setup steps, like installing dependencies, setting environment variables, etc.)
 
-Deployment
-(If you have steps or commands for deploying the subgraph, add them here.)
 
 Queries
 To test the subgraph, you can use the following basic query:
 
 graphql
-Copy code
 {
   transferEvents(first: 5) {
     id
