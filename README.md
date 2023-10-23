@@ -4,7 +4,7 @@ This repository contains the subgraph developed during the course on becoming a 
 
 ## About the Course
 
-The course, titled **["Learn everything you need to know about becoming a subgraph developer in The Graph Network"](https://thegraph.academy/course/subgraph-developer-course/)**, is tailored to introduce participants to:
+The course, titled **["Subgraph Developer Course-Graph Academy"](https://thegraph.academy/course/subgraph-developer-course/)**, is tailored to introduce participants to:
 
 - The core technical aspects of The Graph.
 - The concept, architecture, and nuances of subgraphs.
@@ -21,9 +21,13 @@ To test the subgraph, you can use the following basic query:
 
 ```graphql
 {
-  transferEvents(first: 5) {
-    id
-    amount
-  }
+transferEvents(first: 5) {
+amount
+sender
+destination
+block
+timestamp
+transaction
+}
 }
 
